@@ -17,8 +17,5 @@ public class Main {
         MyApp myApp = new MyApp(controller);
         Scanner scanner = new Scanner(System.in);
         myApp.Start();
-
-
-
     }
 }

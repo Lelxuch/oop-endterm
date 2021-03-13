@@ -47,6 +47,7 @@ public class MyApp {
         String result = controller.searchBookByTitle(title);
         System.out.println(result);
     }
+
     public void getBookByISBNMenu() {
         System.out.println("Write the ISBN of book!");
         int id = scanner.nextInt();
@@ -57,21 +58,15 @@ public class MyApp {
     public void addBookMenu() {
         System.out.println("Write the ISBN of book!");
         int id = scanner.nextInt();
+        
         System.out.println("Write the name of book!");
         String title = scanner.next();
-        System.out.println("Excellent!Please type random number!");
-
-        int num = scanner.nextInt();
 
         System.out.println("Write the name of Author!");
         String author = scanner.next();
-        System.out.println("Great!Please type random number!");
-        num = scanner.nextInt();
 
         System.out.println("Write book's genre");
         String genre = scanner.next();
-        System.out.println("Good job!Please type random number!");
-        num = scanner.nextInt();
 
         System.out.println("Write book's edition");
         String book_edition = scanner.next();
